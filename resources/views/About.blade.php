@@ -46,10 +46,19 @@
             width: 60%;
             text-align: center;
         }
+        .btn-home{
+            height: 6%;
+            border-radius:10px;
+            background-color: #FF2D20;
+            color: white;
+            font-weight: bold;
+        }
 
     </style>
 </head>
 <body>
+<button onclick="location.href='{{$homepage}}'" class="btn-home">Get Back To HomePage</button>
+
 <section class="page-about">
     <div class="content-container">
 
@@ -66,7 +75,7 @@
             <div class = 'description-text'>{{$description}}</div>
          </div>
 
-
     </section>
+
 </body>
 </html>
